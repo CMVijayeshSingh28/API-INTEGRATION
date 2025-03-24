@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to the external CSS file for styling -->
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Information</h1>
+        <!-- Input box to allow the user to enter a city name -->
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <!-- Button to trigger the weather fetch -->
+        <button id="fetch-weather">Get Weather</button>
+
+        <!-- This div will contain the weather data and be dynamically updated -->
+        <div id="weather-result">
+            <h2 id="city-name"></h2> <!-- City name will be displayed here -->
+            <p id="weather-description"></p> <!-- Weather description (e.g., sunny, cloudy) -->
+            <p id="temperature"></p> <!-- Temperature -->
+            <p id="humidity"></p> <!-- Humidity -->
+        </div>
+    </div>
+
+    <!-- Linking to the external JavaScript file for functionality -->
+    <script src="script.js"></script>
+</body>
+</html>

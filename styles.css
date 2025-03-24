@@ -1,0 +1,58 @@
+/* Basic Styling for the webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  /* Light gray background */
+    display: flex;
+    justify-content: center;  /* Centering content horizontally */
+    align-items: center;  /* Centering content vertically */
+    height: 100vh;  /* Full viewport height */
+    margin: 0;  /* Remove default margin */
+}
+
+.container {
+    text-align: center;  /* Center text inside the container */
+    background-color: white;  /* White background for the content box */
+    padding: 20px;
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);  /* Light shadow for 3D effect */
+    width: 90%;  /* Full width on small screens, adjusts as per content */
+    max-width: 400px;  /* Max width to ensure the container is not too wide */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;  /* Input box takes 80% width of the container */
+    margin-top: 20px;
+    border-radius: 5px;  /* Rounded corners */
+    border: 1px solid #ccc;  /* Light gray border */
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;  /* Green background */
+    color: white;  /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  /* Pointer cursor when hovering over button */
+}
+
+button:hover {
+    background-color: #45a049;  /* Darker green when hovering */
+}
+
+#weather-result {
+    margin-top: 20px;
+    display: none;  /* Initially hidden until data is loaded */
+    text-align: left;  /* Align weather details to the left */
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;  /* Full width on smaller screens */
+    }
+
+    input[type="text"], button {
+        width: 100%;  /* Full width for input and button */
+    }
+}
