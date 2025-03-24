@@ -38,5 +38,8 @@ The task required setting up an API key for OpenWeatherMap. Securing the API key
 Conclusion:
 This task demonstrates how to integrate a public API (such as OpenWeatherMap) into a webpage to fetch and display live data dynamically. By using HTML, CSS, and JavaScript, the task was successfully completed, resulting in a responsive webpage that can fetch real-time weather data based on user input. This project not only provides the user with useful information but also demonstrates key web development concepts such as asynchronous data fetching, dynamic content updating, and responsive design."
 
-"OUTPUT" 
+#OUTPUT
+
+<img width="1440" alt="Image" src="https://github.com/user-attachments/assets/28b4feae-03e1-4858-b532-882311a30c92" />
+
 
